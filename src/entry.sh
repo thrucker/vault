@@ -11,4 +11,4 @@ while [ ! -f "/config/config.hcl" ]; do
 done
 
 sleep 5
-run_vault
+run_vault $@
